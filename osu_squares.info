@@ -5,6 +5,7 @@ engine = phptemplate
 stylesheets[all][] = typography.css
 stylesheets[all][] = layout.css
 stylesheets[all][] = style.css
+stylesheets[all][] = navbar/osu-navbar-media/css/navbar.css
 
 regions[left] = Left sidebar
 regions[right] = Right sidebar

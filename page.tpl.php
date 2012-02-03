@@ -5,14 +5,13 @@ $language->language ?>" xmlns="http://www.w3.org/1999/xhtml">
 
 <head profile="http://gmpg.org/xfn/11">
 <title><?php print $head_title ?></title>
-<?php require_once("sites/all/files/navbar/osu-navbar-h.html"); ?>
 <?php print $head ?>
 <?php print $styles ?>
 <?php print $scripts ?>
 </head>
 
 <body class="<?php print $body_classes ?>">
-<?php require_once("sites/all/files/navbar/osu-navbar-b.html"); ?>
+<?php require_once(path_to_theme() . "/navbar/osu-navbar-b.html"); ?>
 <div id="wrapper">
 
 <div id="header"<?php print (count($secondary_links) ? ' class="p2"' : ' class="p1"') ?>>
