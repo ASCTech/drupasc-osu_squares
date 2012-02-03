@@ -1,0 +1,57 @@
+#wrapper {
+  margin: 0 auto 0 auto;
+}
+.one-sidebar #wrapper {
+  width: 970px;
+}
+.two-sidebars #wrapper {
+  width: 1170px;
+}
+#header #logo, #branding, #main, .sidebar {
+  float: left;
+}
+#search, #header-additional {
+  float: right;
+}
+#menu, #content, #footer {
+  clear: both;
+}
+#main {
+  width: 620px;
+  padding: 2em 35px 1.5em 35px;
+}
+.sidebar {
+  width: 270px;
+}
+#sidebar-left {
+  margin-right: -1px;
+}
+#sidebar-right {
+  float:right;
+  margin-left: -1px;
+}
+#footer {
+  width: 100%;
+}
+
+/*** Node specific CSS ***/
+
+/*User Listing fields*/
+#main .content #profile {
+	height: 70px;
+	width: 600px;
+	padding: 4px;
+	margin: 0px;
+	line-height: 1.2;
+}
+#main .content #profile div {
+	float: left;
+	padding-right: 9px;
+}
+#main .content #profile .picture {
+	float: left;
+	width: 60px;
+}
+#main .content #profile #staffnames { width: 110px; }
+#main .content #profile #titleoffice { width: 220px; }
+#main .content #profile #contacts { width: 120px; }

@@ -1,0 +1,14 @@
+name = OSU Squares
+description = A stylish generic theme for OSU.
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = typography.css
+stylesheets[all][] = layout.css
+stylesheets[all][] = style.css
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[before_content] = Before content
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
